@@ -27,12 +27,12 @@ function Hero() {
           className={styles.hero}
           alt="Profile picture of Harris Johnsen"
         />
-        {/* <img
+        <img
           className={styles.colorMode}
           src={themeIcon}
           alt="Color mode icon"
           onClick={toggleTheme}
-        /> */}
+        />
       </div>
       <div className={styles.info}>
         <h1>
