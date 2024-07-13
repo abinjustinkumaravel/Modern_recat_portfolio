@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card{
+  min-width: 150px;
+  cursor: pointer;
+  background-color: #0987f2;
+  padding: 20px;
+  border: 2px solid #0987f2;
+  border-radius: 20px;
+}
+
+.card a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.card:hover{
+  scale: 1.1;
+}
