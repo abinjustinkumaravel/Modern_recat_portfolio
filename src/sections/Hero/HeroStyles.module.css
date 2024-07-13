@@ -10,7 +10,8 @@
   .hero {
     max-width: 200px;
     border-radius: 100%;
-    border: 2px solid #0987f2;
+    border: 2px solid blueviolet;
+    box-shadow: 10px 10px 600px rgba(138, 53, 218, 0.705);
   }
 
   span {
@@ -34,7 +35,7 @@
   }
 
   button {
-    background-color: var(--btn-color);
+    background-color: blueviolet;
     color: var(--btn-text-color);
     border: none;
     border-radius: 20px;
@@ -72,6 +73,7 @@
 
 .description {
   max-width: 50ch;
+  color:blueviolet;
 }
 
 .info {
@@ -104,6 +106,7 @@
 
 h2{
 
-  color: #0987f2;
+  color: blueviolet;
+  
 
 }

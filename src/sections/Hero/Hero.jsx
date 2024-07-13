@@ -36,24 +36,22 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Simi Gracia
-          <br />
-          Sunil Christopher
+          Maneesh . M
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Full-stack Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/imisgsc" target="_blank">
+          <a href="https://github.com/Maneesh63" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/simi-gracia-sunil-christopher-47362720a/" target="_blank">
+          <a href="https://www.linkedin.com/in/maneesh63/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
+          With a passion for developing modern Python web apps for commercial
           businesses.
         </p>
         <a href={CV} download>

@@ -8,7 +8,6 @@ function ProjectCard({ src, link1, h3, p }) {
       <p>{p}</p>
       <div className='Buttons'>
         <a href={link1}><button>Github</button></a>
-        <a href={link1}><button>Live</button></a>
       </div>
     </section>
   );

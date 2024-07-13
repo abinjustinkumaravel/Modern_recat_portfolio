@@ -13,9 +13,9 @@
 .card{
   min-width: 150px;
   cursor: pointer;
-  background-color: #0987f2;
+  background-color: blueviolet;
   padding: 20px;
-  border: 2px solid #0987f2;
+  border: 2px solid blueviolet;
   border-radius: 20px;
 }
 
