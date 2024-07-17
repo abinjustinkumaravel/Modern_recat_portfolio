@@ -12,28 +12,28 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link11="https://github.com/"
-          h3="Project one"
-          p="Social Media app"
+          link11="https://github.com/Maneesh63/Ecommerce-Website-With-Django"
+          h3="E Cart"
+          p="Full Stack Ecom site"
         />
         <ProjectCard
           src={freshBurger}
-          link1="https://github.com/"
-          h3="Project one"
-          p="Vidhya Sagar College "
+          link1="https://github.com/Maneesh63/Djnago-Blog-Website"
+          h3="Blogee"
+          p="Full Stack Blog Site"
         />
         <ProjectCard
           src={hipsster}
-          link1="https://github.com/"
-          h3="Project one"
-          p="React News App"
+          link1="https://github.com/Maneesh63/Authentication-system-with-Django"
+          h3="PyAuth"
+          p="Python Auth App"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={fitLift}
           link1="https://github.com/"
           h3="Project one"
           p="Payment App"
-        />
+        /> */}
       </div>
     </section>
   );

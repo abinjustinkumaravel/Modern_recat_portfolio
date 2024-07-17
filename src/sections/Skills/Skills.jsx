@@ -27,8 +27,8 @@ function Skills() {
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Canva" />
-        <SkillList src={checkMarkIcon} skill="Webpack" />
+        <SkillList src={checkMarkIcon} skill="ORM" />
+        <SkillList src={checkMarkIcon} skill="Jinja" />
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="Machine Learning" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
