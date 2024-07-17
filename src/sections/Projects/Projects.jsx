@@ -35,13 +35,31 @@ function Projects() {
           src={fitLift}
           link1="https://github.com/"
           h3="Project"
-          p="Payment App"
+          p="Upcoming"
         />
           <ProjectCard
           src={freshBurger}
           link1="https://github.com/"
           h3="Project"
-          p="Web App"
+          p="Upcoming"
+        />
+          <ProjectCard
+          src={fitLift}
+          link1="https://github.com/"
+          h3="Project"
+          p="Upcoming"
+        />
+          <ProjectCard
+          src={freshBurger}
+          link1="https://github.com/"
+          h3="Project"
+          p="Upcoming"
+        />
+          <ProjectCard
+          src={fitLift}
+          link1="https://github.com/"
+          h3="Project"
+          p="Upcoming"
         />
 
 
