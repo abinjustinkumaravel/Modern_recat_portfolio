@@ -4,6 +4,9 @@ import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
+import AUTH from '../../assets/AUTH.jpeg';
+import Blog from "../../assets/BLOG.jpeg";
+import ECOM from "../../assets/ECOM.jpeg";
 
 function Projects() {
   return (
@@ -11,29 +14,37 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={ECOM}
           link11="https://github.com/Maneesh63/Ecommerce-Website-With-Django"
           h3="E Cart"
           p="Full Stack Ecom site"
         />
         <ProjectCard
-          src={freshBurger}
+          src={Blog}
           link1="https://github.com/Maneesh63/Djnago-Blog-Website"
           h3="Blogee"
           p="Full Stack Blog Site"
         />
         <ProjectCard
-          src={hipsster}
+          src={AUTH}
           link1="https://github.com/Maneesh63/Authentication-system-with-Django"
           h3="PyAuth"
           p="Python Auth App"
         />
-        {/* <ProjectCard
+        <ProjectCard
           src={fitLift}
           link1="https://github.com/"
-          h3="Project one"
+          h3="Project"
           p="Payment App"
-        /> */}
+        />
+          <ProjectCard
+          src={freshBurger}
+          link1="https://github.com/"
+          h3="Project"
+          p="Web App"
+        />
+
+
       </div>
     </section>
   );
