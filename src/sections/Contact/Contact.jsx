@@ -13,7 +13,7 @@ function Contact() {
         </div>
         <div className={styles.card}>
 
-          <p><a href="https://www.linkedin.com/in/maneesh63/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
 
         </div>
       </div>

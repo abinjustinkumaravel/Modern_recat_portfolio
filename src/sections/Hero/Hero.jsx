@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.jpeg';
+import heroImg from '../../assets/logo.jpeg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -36,25 +36,25 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Maneesh . M
+          Srirsha
         </h1>
-        <h2>Full-stack Developer</h2>
+        <h2>React - Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/Maneesh63" target="_blank">
+          <a href="https://github.com/" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/maneesh63/" target="_blank">
+          <a href="https://www.linkedin.com/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern Python web apps for commercial
+          With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a href="#" download>
           <button className="hover">Resume</button>
         </a>
       </div>
